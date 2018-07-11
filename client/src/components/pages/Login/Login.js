@@ -64,7 +64,7 @@ class Login extends Component {
                     {errors.email ? errors.email : null}
                     <input type="text" className="form-control text-style" placeholder="Email" name="email" value={this.state.email}  onChange={this.onChange} />
                     {errors.password ? errors.password : null}
-                    <input type="text" className="form-control text-style" placeholder="Password" name="password" value={this.state.password}  onChange={this.onChange} />
+                    <input type="password" className="form-control text-style" placeholder="Password" name="password" value={this.state.password}  onChange={this.onChange} />
                     <input type="submit" className="btn" />
                 </form>
                 </div>
